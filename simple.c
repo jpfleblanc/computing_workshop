@@ -1,0 +1,16 @@
+# include <stdio.h>
+
+int main()
+{
+	int i, num, k, j;
+	
+	printf ("Enter the number: ");
+	scanf ("%d", &num );
+	j=1;
+	for (i=1; i<num; i++){
+		j=j*i;    
+	printf("%d %d %d\n",i,j,num);
+	}
+
+	printf("The factorial of %d is %d\n",num,j);
+}
